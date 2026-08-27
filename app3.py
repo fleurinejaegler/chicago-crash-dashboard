@@ -11,8 +11,8 @@ from dash import Dash, Input, Output, dcc, html
 ROOT = Path(__file__).resolve().parent
 MODEL_DIR = ROOT / "models"
 
-INJURY_THRESHOLD = 0.5
-SEVERE_THRESHOLD = 0.5
+INJURY_THRESHOLD = 0.22
+SEVERE_THRESHOLD = 0.12
 
 C = {
     "surface": "#fcfcfb",
